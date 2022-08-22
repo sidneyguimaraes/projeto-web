@@ -1,30 +1,26 @@
 @charset "UTF-8";
 
-/*Usando variaveis
-     - verde folha claro
-    - verde folha
-     - verde cinza
-     - verde escuro
-     - verde claro
-*/
 /*Usando as Pseuclasses*/
 /*------- o * é uma configuração global  */
 
+
 :root{
-    --verde_folha_claro:#6E9C92;
-    --verde_folha: #B9E4DB;
-    --verde_cinza:#73C9B7;
-    --verde_escuro:#273b37;
-    --verde_claro:#A7EBDC;
+    --azul_forte:#033bc4;
+    --azul_escuro:#262e69;
+    --baranco: #FFFFFF;
+    --cinza_claro:#f6f6f6 ;
 }
 
 header{
-    
-    margin: 0px;
+    margin: 30px;
     border: 0px;
-    background-image: linear-gradient(to bottom, var(--verde_cinza), var(--verde_folha_claro) ); 
+    background-color: var(--azul_forte);
+   
 }
 
+
+
+/*
 
 .cabecalho{ text-align: center;
             font-size: 3em;
@@ -50,9 +46,13 @@ body {
     background-color: var(--verde_cinza);}
 
 a.externo::after{
-        content: '\00a0\1F517'; /* pseudoelementos */
+        content: '\00a0\1F517'; /* pseudoelementos
 }
 
+*/
+
+
+/*
 a.home::before{content:'\00A0\1F3E0';}
 a.sobre::before{content:'\1F516' ;}
 a.curiosidade::before{content:'\00a0\1F30E';}
@@ -81,6 +81,8 @@ nav >a:hover{
 
 .paragrafo_um{
     /*margin: 20px 0px ;*/
+
+/*
     padding: 0px 10px;
     text-indent: 60px;
     line-height: 1.2em;}
@@ -107,6 +109,8 @@ main{
 
 
 /**{  margin: 0%; padding: 0%; }*/
+
+/*
 
 img{display: block; margin: auto;}
 .montanha_01{text-align: center; margin: 0px;}
@@ -167,3 +171,4 @@ footer > p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+

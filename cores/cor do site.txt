@@ -1,0 +1,7 @@
+#033bc4 - azul 
+
+#FFFFFF - Branco
+
+#262e69 - Azul escuro
+
+#f6f6f6 - cinza claro

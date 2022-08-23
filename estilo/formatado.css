@@ -12,11 +12,25 @@
 }
 
 header{
-    margin: 30px;
+    margin: 0px;
     border: 0px;
+    padding: 20px;
     background-color: var(--azul_forte);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--baranco);
+    font-weight: normal;
+    display: flex;
    
 }
+
+nav{
+    text-align:left;
+
+}
+
+
+    
+
 
 
 
